@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dodcoin — Software Developer &amp; Builder</title>
+<meta name="description" content="Developer home of Dodcoin: open-source software projects, web applications and developer tools.">
+<style>
+  :root { color-scheme: dark; }
+  body { margin:0; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; background:#0d1117; color:#e6edf3; }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; }
+  h2 { font-size: 1.15rem; margin: 40px 0 12px; color:#7ee787; }
+  p, li { line-height: 1.65; }
+  a { color:#58a6ff; }
+  .tag { color:#8b949e; }
+  .card { border:1px solid #30363d; border-radius:10px; padding:18px 20px; margin:14px 0; background:#161b22; }
+  .card h3 { margin:0 0 6px; font-size:1.05rem; }
+  .stack { color:#8b949e; font-size:.9rem; }
+  code { background:#21262d; padding:1px 6px; border-radius:5px; }
+  footer { margin-top:56px; color:#8b949e; font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Dodcoin</h1>
+  <p class="tag">Software developer &amp; open-source builder — web applications, browser-based audio software, and on-chain tooling.</p>
+  <p>This is my developer home on the web. I design and build software, publish the source code on GitHub, and ship working demos you can run in the browser. Everything listed below is a software project I wrote and maintain.</p>
+  <p>GitHub: <a href="https://github.com/Dodcoin">github.com/Dodcoin</a></p>
+
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3><a href="https://wheelyfm.dodcoin.is-a.dev">WHEELY FM — generative radio engine</a></h3>
+    <p>A browser-based generative music application written in vanilla JavaScript. A WebAudio composition engine polls a public telemetry API every 15 seconds and composes music in real time — tempo, note density and filter brightness are functions of the live data stream. No recordings, no playlists, no backend: one static HTML file containing the full synthesis engine, a canvas visualisation and a session-statistics module.</p>
+    <p class="stack">Stack: JavaScript, WebAudio API, Canvas, REST polling · Source: <a href="https://github.com/Dodcoin/wheely-fm">github.com/Dodcoin/wheely-fm</a></p>
+  </div>
+
+  <div class="card">
+    <h3>On-chain automation tooling</h3>
+    <p>Node.js and Python automation I develop for BNB Smart Chain: contract-call builders, eligibility checkers and monitoring scripts that read chain state over JSON-RPC and construct transaction calldata programmatically, with simulation checks before anything is signed.</p>
+    <p class="stack">Stack: Node.js, Python, web3, JSON-RPC, EVM calldata</p>
+  </div>
+
+  <div class="card">
+    <h3>This site</h3>
+    <p>A hand-written static site — semantic HTML and CSS, no framework, no build step — served by GitHub Pages and published under my own developer subdomain.</p>
+    <p class="stack">Stack: HTML, CSS, GitHub Pages · Source: <a href="https://github.com/Dodcoin/Dodcoin.github.io">github.com/Dodcoin/Dodcoin.github.io</a></p>
+  </div>
+
+  <h2>Skills</h2>
+  <ul>
+    <li>Front-end development: HTML, CSS, JavaScript, WebAudio, Canvas</li>
+    <li>Back-end &amp; scripting: Node.js, Python</li>
+    <li>Web3 development: EVM contracts, JSON-RPC, transaction construction</li>
+    <li>Tooling: Git, GitHub, Linux, static-site deployment</li>
+  </ul>
+
+  <footer>© 2026 Dodcoin · Built and maintained by hand · <a href="https://github.com/Dodcoin">GitHub</a></footer>
+</main>
+</body>
+</html>
